@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oak Fitness - Transform Your Life</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-logo">
+            <img src="images/Screenshot 2025-03-26 175321.png" alt="Oak Fitness Logo">
+        </div>
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#programs">Programs</a>
+            <a href="#about">About</a>
+            <a href="#trainers">Trainers</a>
+            <a href="#pricing">Pricing</a>
+            <a href="#contact">Contact</a>
+        </div>
+        <div class="menu-btn">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Transform Your Body</h1>
+            <h2>Elevate Your Fitness Journey</h2>
+            <p>Join Oak Fitness and experience a revolutionary approach to health and wellness. 
+            Our state-of-the-art facilities and expert trainers are here to guide you towards your peak performance.</p>
+            <a href="#contact" class="cta-button">Start Your Journey</a>
+        </div>
+    </section>
+
+    <!-- Programs Section -->
+    <section id="programs" class="programs">
+        <h2 class="section-title" data-aos="fade-up">Our Programs</h2>
+        <div class="programs-grid">
+            <div class="program-card" data-aos="fade-up">
+                <i class="fas fa-dumbbell"></i>
+                <h3>Strength Training</h3>
+                <p>Build muscle and increase strength with our expert-led programs.</p>
+                <a href="#contact" class="cta-button">Learn More</a>
+            </div>
+            <div class="program-card" data-aos="fade-up" data-aos-delay="200">
+                <i class="fas fa-heart"></i>
+                <h3>Cardio Fitness</h3>
+                <p>Improve your endurance and heart health with varied cardio workouts.</p>
+                <a href="#contact" class="cta-button">Learn More</a>
+            </div>
+            <div class="program-card" data-aos="fade-up" data-aos-delay="400">
+                <i class="fas fa-om"></i>
+                <h3>Yoga Classes</h3>
+                <p>Find your balance with our relaxing and strengthening yoga sessions.</p>
+                <a href="#contact" class="cta-button">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="about-content">
+            <div class="about-text" data-aos="fade-right">
+                <h2 class="section-title">About Oak Fitness</h2>
+                <p>At Oak Fitness, we believe in building strength that lasts. Like the mighty oak tree, we help you develop strong foundations for a healthy lifestyle.</p>
+                <ul>
+                    <li><i class="fas fa-check"></i> State-of-the-art equipment</li>
+                    <li><i class="fas fa-check"></i> Expert trainers</li>
+                    <li><i class="fas fa-check"></i> Flexible schedule</li>
+                    <li><i class="fas fa-check"></i> Personalized programs</li>
+                </ul>
+            </div>
+            <div class="about-image" data-aos="fade-left">
+                <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=1470&auto=format&fit=crop" alt="Gym Interior">
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing">
+        <h2 class="section-title" data-aos="fade-up">Membership Plans</h2>
+        <div class="pricing-grid">
+            <div class="price-card" data-aos="fade-up">
+                <h3>Basic</h3>
+                <div class="price">$29<span>/month</span></div>
+                <ul>
+                    <li>Access to gym floor</li>
+                    <li>Basic equipment usage</li>
+                    <li>Locker room access</li>
+                    <li>Fitness assessment</li>
+                </ul>
+                <a href="#contact" class="cta-button">Choose Plan</a>
+            </div>
+            <div class="price-card featured" data-aos="fade-up" data-aos-delay="200">
+                <div class="featured-tag">Most Popular</div>
+                <h3>Premium</h3>
+                <div class="price">$49<span>/month</span></div>
+                <ul>
+                    <li>All Basic features</li>
+                    <li>Group classes included</li>
+                    <li>Personal trainer consultation</li>
+                    <li>Nutrition guidance</li>
+                    <li>Access to spa facilities</li>
+                </ul>
+                <a href="#contact" class="cta-button">Choose Plan</a>
+            </div>
+            <div class="price-card" data-aos="fade-up" data-aos-delay="400">
+                <h3>Elite</h3>
+                <div class="price">$79<span>/month</span></div>
+                <ul>
+                    <li>All Premium features</li>
+                    <li>Unlimited PT sessions</li>
+                    <li>Spa access</li>
+                    <li>Priority booking</li>
+                    <li>Exclusive events access</li>
+                </ul>
+                <a href="#contact" class="cta-button">Choose Plan</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2 class="section-title" data-aos="fade-up">Get In Touch</h2>
+        <div class="contact-container">
+            <form class="contact-form" data-aos="fade-up">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <select required>
+                    <option value="">Select Membership Plan</option>
+                    <option value="basic">Basic</option>
+                    <option value="premium">Premium</option>
+                    <option value="elite">Elite</option>
+                </select>
+                <textarea placeholder="Message" required></textarea>
+                <button type="submit" class="cta-button">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <img src="https://raw.githubusercontent.com/akshaykhanna/Oak-Fitness/main/logo.png" alt="Oak Fitness Logo" class="footer-logo">
+                <p>Transform your life with Oak Fitness. Join us on the journey to a healthier you.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <a href="#home">Home</a>
+                <a href="#programs">Programs</a>
+                <a href="#about">About</a>
+                <a href="#pricing">Pricing</a>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Info</h3>
+                <p><i class="fas fa-map-marker-alt"></i> 123 Fitness Street, Gym City</p>
+                <p><i class="fas fa-phone"></i> (555) 123-4567</p>
+                <p><i class="fas fa-envelope"></i> info@oakfitness.com</p>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Oak Fitness. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html> 
